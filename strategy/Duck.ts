@@ -4,8 +4,8 @@ import Quackable from './QuackBehavior/Quakable';
 // abstract super class 'behold the duck'
 export default class Duck {
   // these can be overridden at run time
-  flyBehavior: Flyable;
-  quackBehavior: Quackable;
+  flyBehavior!: Flyable;
+  quackBehavior!: Quackable;
 
   display() {
     // default
