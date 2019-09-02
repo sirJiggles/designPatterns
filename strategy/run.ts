@@ -2,11 +2,20 @@
 // node the run.js file for the output
 
 import RubberDuck from './Ducks/RubberDuck';
-
-const rubberDuck = new RubberDuck();
+import RegularDuck from './Ducks/RegularDuck';
 
 console.log('Test rubber duck:');
+const rubberDuck = new RubberDuck();
+
 console.log('can you fly?');
 rubberDuck.performFly();
 console.log('can you quack?');
 rubberDuck.performQuack();
+
+console.log('Test regular duck:');
+const regularDuck = new RegularDuck();
+
+console.log('can you fly?');
+regularDuck.performFly();
+console.log('can you quack?');
+regularDuck.performQuack();
