@@ -1,6 +1,6 @@
 # Strategy pattern
 
-### defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+`defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.`
 
 - Algorithms in our example here are the behaviors of that are inter changeable
 - we do this rather than the typical inheritance method of extending a duck

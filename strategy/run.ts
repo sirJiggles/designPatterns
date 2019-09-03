@@ -16,7 +16,7 @@ rubberDuck.performQuack();
 console.log('');
 
 console.log('lets make you fly my little rubber duck');
-// this is run time modification of what would have been a concrete class using inheritance
+// this is a run time modification of what would have been a concrete class using inheritance
 rubberDuck.flyBehavior = new FlyWithWings();
 console.log('NOW can you fly?');
 rubberDuck.performFly();
