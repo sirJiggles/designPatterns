@@ -17,7 +17,3 @@ As the observers and subject just have a contract for subscriptions they are loo
 - we can change both classes without consequence
 - we can add new observers at any time
 - we can use observers and subjects independently of each other
-
-# Design Principles
-
-- Strive for loosely coupled designs between objects that interact.

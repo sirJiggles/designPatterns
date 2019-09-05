@@ -13,3 +13,13 @@ Each folder is a pattern and in each to compile and test the output do the follo
 tldr `tsc && node dist/run.js`
 
 The book is a great read and I would advise it to anyone this repo just scratches the surface of the goods within. It is more a ref for me and a place to physically type / play with patterns.
+
+# Design Principles
+
+These are the principles we try to broadly adhere to when we are talking about design patterns.
+
+- Favor composition over inheritance
+- Program to an interface, not an implementation.
+- Identify the aspects of your application that vary and separate them from what stays the same
+- Strive for loosely coupled designs between objects that interact.
+- Classes should be open for extension, but closed for modification.
