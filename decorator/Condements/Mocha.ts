@@ -2,7 +2,6 @@ import Beverage from '../Beverage';
 
 export default class Mocha implements Beverage {
   beverage: Beverage;
-
   description = 'Mocha';
 
   constructor(beverage: Beverage) {
