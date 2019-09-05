@@ -9,15 +9,18 @@ export default class CurrentConditions implements Observer, DisplayElement {
 
   constructor(weatherData: WeatherData) {
     this.subject = weatherData;
+    this.subject.registerObserver(this);
   }
 
-  
-
-  update(temp: number, humidity: number, pressure: number): void {
-    
+  update(temp: number, humidity: number): void {
+    this.temp = temp;
+    this.humidity = humidity;
     this.display();
   }
+
   display(): void {
-    console.log(`Current conditions: ${}`)
+    console.log(
+      `Current conditions: temp: ${this.temp}, humidity: ${this.humidity}`
+    );
   }
 }
