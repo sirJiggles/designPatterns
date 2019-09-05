@@ -20,7 +20,8 @@ export default class Forecast implements Observer, DisplayElement {
 
   display(): void {
     console.log(
-      `Forecasted conditions: temp: ${this.temp}, humidity: ${this.humidity}`
+      `Forecasted conditions: temp: ${this.temp + 2}, humidity: ${this
+        .humidity - 2}`
     );
   }
 }
