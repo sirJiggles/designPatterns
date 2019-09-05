@@ -2,17 +2,16 @@ import Beverage from '../Beverage';
 
 export default class Mocha implements Beverage {
   beverage: Beverage;
-  description = 'Mocha';
 
   constructor(beverage: Beverage) {
     this.beverage = beverage;
   }
 
-  getDescription() {
-    return `${this.beverage.getDescription()}, ${this.description}`;
+  get description() {
+    return `${this.beverage.description}, Mocha`;
   }
 
-  cost() {
-    return this.beverage.cost() + 0.5;
+  get cost(): number {
+    return this.beverage.cost + 0.5;
   }
 }

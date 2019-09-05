@@ -7,13 +7,13 @@ const coffeeOne = new Espresso();
 const coffeeOneWithMilk = new Milk(coffeeOne);
 const mochaChoca = new Mocha(coffeeOneWithMilk);
 
-console.log(mochaChoca.getDescription());
-console.log(mochaChoca.cost());
+console.log(mochaChoca.description);
+console.log(mochaChoca.cost);
 
 const thing = new Mocha(new Milk(new DarkRoast()));
 
 console.log('');
 console.log('');
 
-console.log(thing.getDescription());
-console.log(thing.cost());
+console.log(thing.description);
+console.log(thing.cost);

@@ -2,17 +2,16 @@ import Beverage from '../Beverage';
 
 export default class Milk implements Beverage {
   beverage: Beverage;
-  description = 'Milk';
 
   constructor(beverage: Beverage) {
     this.beverage = beverage;
   }
 
-  getDescription() {
-    return `${this.beverage.getDescription()}, ${this.description}`;
+  get description() {
+    return `${this.beverage.description}, Milk`;
   }
 
-  cost() {
-    return this.beverage.cost() + 0.2;
+  get cost() {
+    return this.beverage.cost + 0.2;
   }
 }
