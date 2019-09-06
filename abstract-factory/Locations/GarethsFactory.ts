@@ -3,6 +3,7 @@ import CheesePizza from '../Pizzas/CheesePizza';
 import PineapplePizza from '../Pizzas/PineapplePizza';
 import ILocationFactory from './ILocationFactory';
 import GarethsIngredientFactory from '../Ingredients/GarethsIngredientFactory';
+import Peperoni from '../Pizzas/Peperoni';
 
 export default class GarethsFactory implements ILocationFactory {
   // In the factory we just abstract away the creation of the concrete classes
@@ -15,7 +16,7 @@ export default class GarethsFactory implements ILocationFactory {
       case 'cheese':
         return new PineapplePizza(this.ingredientsFactory);
       case 'peperoni':
-        return new PineapplePizza(this.ingredientsFactory);
+        return new Peperoni(this.ingredientsFactory);
       case 'pineapple':
         return new PineapplePizza(this.ingredientsFactory);
       default:
