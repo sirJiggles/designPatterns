@@ -32,3 +32,4 @@ These are the principles we try to broadly adhere to when we are talking about d
 - Identify the aspects of your application that vary and separate them from what stays the same
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
+- Depend upon abstractions. Do not depend upon concrete classes.
