@@ -14,6 +14,12 @@ tldr `tsc && node dist/run.js`
 
 The book is a great read and I would advise it to anyone this repo just scratches the surface of the goods within. It is more a ref for me and a place to physically type / play with patterns.
 
+# Code playground
+
+You can also play each pattern in the following code playgrounds:
+
+- Strategy:
+
 # Design Principles
 
 These are the principles we try to broadly adhere to when we are talking about design patterns.
