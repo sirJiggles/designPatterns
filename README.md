@@ -21,6 +21,7 @@ You can also play each pattern in the following code playgrounds:
 - [Strategy](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/strategy)
 - [Observer](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/observer)
 - [Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/factory)
+- [Abstract Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/abstract-factory)
 - [Decorator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/decorator)
 
 # Design Principles
