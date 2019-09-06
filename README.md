@@ -1,6 +1,6 @@
-# Design patterns
+![Design Patterns](https://github.com/sirJiggles/designPatterns/blob/master/patterns.jpg)
 
-This repo is just some small samples that I am making while working through the book "Head First Design Patterns"
+This repo is just some small samples that I am making while working through the book [Head First Design Patterns](https://www.amazon.de/First-Design-Patterns-Brain-Friendly/dp/0596007124)
 
 Each folder is a pattern and in each to compile and test the output do the following
 
@@ -23,6 +23,7 @@ You can also play each pattern in the following code playgrounds:
 - [Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/factory)
 - [Abstract Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/abstract-factory)
 - [Decorator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/decorator)
+- [Singleton](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/singleton)
 
 # Design Principles
 
