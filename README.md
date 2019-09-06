@@ -18,7 +18,10 @@ The book is a great read and I would advise it to anyone this repo just scratche
 
 You can also play each pattern in the following code playgrounds:
 
-- Strategy:
+- [Strategy](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/strategy)
+- [Observer](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/observer)
+- [Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/factory)
+- [Decorator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/decorator)
 
 # Design Principles
 
