@@ -1,7 +1,7 @@
 import ICommand from './Commands/ICommand';
 
 export default class Remote {
-  slot: ICommand;
+  slot!: ICommand;
 
   setCommand(command: ICommand) {
     this.slot = command;
