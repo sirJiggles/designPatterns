@@ -24,6 +24,7 @@ You can also play each pattern in the following code playgrounds:
 - [Abstract Factory](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/abstract-factory)
 - [Decorator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/decorator)
 - [Singleton](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/singleton)
+- [Command](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/command)
 
 # Design Principles
 
