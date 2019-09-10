@@ -1,9 +1,11 @@
-class Singleton {
+export default class Singleton {
   // static instance is the one that we will ALWAYS ref
   // static means we also call from outside without an instance
   // for example `Singleton.instance` no need to do
   // `const t = new Singleton(); t.instance();`
   private static instance: Singleton;
+
+  isOpen = false;
 
   // as the constructor here is private we cannot call
   // new Singleton()
