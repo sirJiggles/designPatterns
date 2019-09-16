@@ -6,14 +6,14 @@ import RegularDuck from './Ducks/RegularDuck';
 import FlyWithWings from './FlyBehavior/FlyWithWings';
 
 console.log('Test rubber duck:');
-console.log('');
+console.log('\n');
 const rubberDuck = new RubberDuck();
 
 console.log('can you fly?');
 rubberDuck.performFly();
 console.log('can you quack?');
 rubberDuck.performQuack();
-console.log('');
+console.log('\n');
 
 console.log('lets make you fly my little rubber duck');
 // this is a run time modification of what would have been a concrete class using inheritance
@@ -21,8 +21,8 @@ rubberDuck.flyBehavior = new FlyWithWings();
 console.log('NOW can you fly?');
 rubberDuck.performFly();
 
-console.log('');
-console.log('');
+console.log('\n');
+console.log('\n');
 console.log('Test regular duck:');
 const regularDuck = new RegularDuck();
 

@@ -12,8 +12,8 @@ console.log(mochaChoca.cost);
 
 const thing = new Mocha(new Milk(new DarkRoast()));
 
-console.log('');
-console.log('');
+console.log('\n');
+console.log('\n');
 
 console.log(thing.description);
 console.log(thing.cost);
