@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-learning-template-method-pattern",
+  "version": "1.0.0",
+  "description": "A place to learn about the template-method pattern",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "marked": "^0.7.0",
+    "marked-ts": "^1.0.0-beta.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  }
+}
