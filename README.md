@@ -27,6 +27,7 @@ You can also play each pattern in the following code playgrounds:
 - [Command](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/command)
 - [Adapter](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/adapter)
 - [Facade](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/facade)
+- [Template method](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/template-method)
 
 # Design Principles
 
