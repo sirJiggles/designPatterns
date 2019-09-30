@@ -9,7 +9,4 @@ export default class Tea extends CaffeinatedDrink {
   brew() {
     console.log('steeping the tea');
   }
-  addCondiments() {
-    console.log('SHOULD NOT SEE THIS');
-  }
 }

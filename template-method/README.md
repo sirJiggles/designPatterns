@@ -14,4 +14,4 @@ But the template method does not care it just calls those methods in order of wh
 
 You do not have to make the subclasses use all the methods either. You can make a method on the abstract class that is not required to be implemented or that has a default value. Then if you want on the subclass you can 'hook' into that functionality.
 
-An example we have in our code is the useCondiments function is optional based on the subclass if we want to even use that step
+An example we have in our code is the useCondiments function is optional based on the subclass if we want to even use that step. That means that the function addCondiments you can add a default implementation in the super class as it is now and optional hook.

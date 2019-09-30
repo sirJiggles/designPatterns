@@ -25,6 +25,12 @@ export default abstract class CaffeinatedDrink implements ICaffeinatedDrink {
   pour() {
     console.log('we are pouring the brew');
   }
+
+  // this is the one the subclass MUST implement
   abstract brew(): void;
-  abstract addCondiments(): void;
+
+  addCondiments() {
+    // this is the default for the hook here as it depends on what
+    // the subclass sets for the wantsCondiments prop
+  }
 }
