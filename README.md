@@ -28,6 +28,7 @@ You can also play each pattern in the following code playgrounds:
 - [Adapter](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/adapter)
 - [Facade](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/facade)
 - [Template method](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/template-method)
+- [Iterator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/iterator)
 
 # Design Principles
 
@@ -40,3 +41,4 @@ These are the principles we try to broadly adhere to when we are talking about d
 - Classes should be open for extension, but closed for modification.
 - Depend upon abstractions. Do not depend upon concrete classes.
 - Principle of Least Knowledge "talk only to your immediate friends."
+- Don’t call us, we’ll call you. (Holywood principle)
