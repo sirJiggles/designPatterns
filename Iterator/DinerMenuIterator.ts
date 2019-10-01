@@ -1,21 +1,26 @@
 import IIterator from './IIterator';
 import IItem from './IItem';
+import IDinerItem from './IDinerItem';
 
-// This is the iterator for when we are dealing with a menu list of items in
-// an array
+// This iterator can handle arrays or sets
 export default class DinerMenuIterator implements IIterator {
-  menuItems: IItem[];
-  position: 0;
+  menuItems: IDinerItem[];
+  position = 0;
 
-  constructor(menuItems: IItem[]) {
+  constructor(menuItems: IDinerItem[]) {
     this.menuItems = menuItems;
   }
 
   hasNext() {
-    return this.menuItems[this.position + 1] !== undefined;
+    // check if we have one at the next index
+    return (
+      this.menuItems.filter(item => item.index && item.index === this.position)
+        .length > 0 || this.menuItems.length > this.position
+    );
   }
-  next() {
+  next(): IItem {
+    const item = this.menuItems[this.position].val;
     this.position += 1;
-    return this.menuItems[this.position];
+    return item;
   }
 }
