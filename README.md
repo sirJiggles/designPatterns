@@ -1,6 +1,6 @@
-# README
+# Design Patterns
 
-![Design Patterns](https://github.com/sirJiggles/designPatterns/blob/master/patterns.png)
+![](.gitbook/assets/patterns.png)
 
 This repo is just some small samples that I am making while working through the book [Head First Design Patterns](https://www.amazon.de/First-Design-Patterns-Brain-Friendly/dp/0596007124)
 

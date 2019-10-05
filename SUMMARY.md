@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Design Patterns](README.md)
 * [Facade Pattern](facade.md)
 * [Decorator pattern](decorator.md)
 * [Abstract Factory Pattern](abstract-factory.md)
