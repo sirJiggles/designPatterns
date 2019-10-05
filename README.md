@@ -1,5 +1,7 @@
 ---
-description: 'Code playground: Strategy'
+description: >-
+  TLDR notes to serve as a reminder on design patterns after working through a
+  book on them.
 ---
 
 # Design Patterns
