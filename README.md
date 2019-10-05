@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/patterns.png)
 
-This repo is just some small samples that I am making while working through the book [Head First Design Patterns](https://www.amazon.de/First-Design-Patterns-Brain-Friendly/dp/0596007124), if you want a nicer readme for each pattern you can go [here](./) \(But they only make real sense when also looking at the code\)
+This repo is just some small samples that I am making while working through the book [Head First Design Patterns](https://www.amazon.de/First-Design-Patterns-Brain-Friendly/dp/0596007124), if you want a nicer readme for each pattern you can go [here](https://gareth-fuller.gitbook.io/design_patterns) \(But they only make real sense when also looking at the code\)
 
 Each folder is a pattern and in each to compile and test the output do the following
 
