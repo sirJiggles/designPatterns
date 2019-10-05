@@ -4,6 +4,12 @@
 
 `provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher- level interface that makes the subsystem easier to use.`
 
+## Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/facade" %}
+
+
+
 ## What is it
 
 If you have a bunch of classes and they each have methods, and maybe you also have something that involves calling methods on those classes again and again you may want a facade.

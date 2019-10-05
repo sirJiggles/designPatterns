@@ -1,3 +1,7 @@
+---
+description: 'Code playground: Strategy'
+---
+
 # Design Patterns
 
 ![](.gitbook/assets/patterns.png)

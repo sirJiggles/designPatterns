@@ -4,6 +4,10 @@
 
 `encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support un-doable operations.`
 
+## Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/command" %}
+
 ## What is it
 
 With the command pattern you can have a function like `getThings` which will do different things when a different command is loaded in.

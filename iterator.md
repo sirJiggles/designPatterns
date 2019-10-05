@@ -4,6 +4,10 @@
 
 `provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.`
 
+## Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/Iterator" %}
+
 ## What is it
 
 It is just a way of abstracting away the iteration of 'something' from the consumer of that thing.

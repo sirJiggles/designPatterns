@@ -4,6 +4,10 @@
 
 `ensures a class has only one instance, and provides a global point of access to it.`
 
+## Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/singleton" %}
+
 ## What is it
 
 The singleton pattern is super simple, by making the constructor private and ensuring that only one instance can exist by calling the static `getInstance` function. We can ensure that there is only ever one instance of the class in the app.

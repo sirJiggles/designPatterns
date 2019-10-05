@@ -2,6 +2,12 @@
 
 `attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.`
 
+### Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/decorator" %}
+
+### Summary
+
 * Decorators have the same supertype as the objects they decorate.
 * You can use one or more decorators to wrap an object.
 * Given that the decorator has the same supertype as the object it decorates, we can pass around a decorated object in place of the original \(wrapped\) object.

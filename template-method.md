@@ -4,6 +4,10 @@
 
 `The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.`
 
+## Playground
+
+{% embed url="https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/template-method" %}
+
 ## What is it
 
 It is just a method that is a template for an algorithm. In our case we had the template method prepare\(\) which was the template method. This method does not care how the steps are implemented but will just call some methods to get something done.
