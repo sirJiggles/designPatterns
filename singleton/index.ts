@@ -1,5 +1,5 @@
 import { Marked } from 'marked-ts';
-import markdown from './README.md';
+import markdown from '../singleton.md';
 
 const docs = document.getElementById('docs');
 if (docs) {
