@@ -13,4 +13,5 @@
 * [Template Method Pattern](template-method.md)
 * [Observer Pattern](observer.md)
 * [Composite Pattern](composite-pattern.md)
+* [State Pattern](state-pattern.md)
 
