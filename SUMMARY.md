@@ -12,4 +12,5 @@
 * [Strategy pattern](strategy.md)
 * [Template Method Pattern](template-method.md)
 * [Observer Pattern](observer.md)
+* [Composite Pattern](composite-pattern.md)
 
