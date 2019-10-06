@@ -36,5 +36,7 @@ But as you can imagine with many states and many actions you will have lots of o
 
 Take a look at the code sample for a cleaner version of this in TS using a gumball machine and how we move all the 'how to act in different states' out into classes. This is just a style choice both examples are just examples of transitioning state internally and then having different behaviour for actions based on the current state.
 
+![](.gitbook/assets/screenshot-2019-10-06-at-21.47.07.png)
+
 
 
