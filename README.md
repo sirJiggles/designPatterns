@@ -38,6 +38,7 @@ You can also play each pattern in the following code playgrounds:
 * [Template method](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/template-method)
 * [Iterator](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/iterator)
 * [Composite](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/composite)
+* [State](https://codesandbox.io/embed/github/sirJiggles/designPatterns/tree/master/state)
 
 ## Design Principles
 

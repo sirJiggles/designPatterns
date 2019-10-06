@@ -1,6 +1,6 @@
 # Decorator pattern
 
-`attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.`
+> `attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.`
 
 ### Playground
 
